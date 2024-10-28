@@ -31,6 +31,9 @@ target 'Runner' do
   use_frameworks!
   use_modular_headers!
 
+  pod 'Leanplum-iOS-SDK', '6.1.1'
+  pod 'Leanplum-iOS-Location', '6.1.1'
+  pod 'Leanplum-iOS-LocationAndBeacons', '6.1.1'
   pod 'ChannelIOSDK', podspec: 'https://mobile-static.channel.io/ios/latest/xcframework.podspec'
 
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))

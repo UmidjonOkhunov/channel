@@ -12,6 +12,9 @@ import ChannelIOFront
 
     ChannelIO.initialize(application)
 
+//    let leanplumHostApi = MyLeanplum()
+//    BridgeLeanplumNativeMethodSetup(controller.binaryMessenger, leanplumHostApi)
+
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
 }
